@@ -1,151 +1,162 @@
-body{
-    text-align: center;
+body {
+  text-align: center;
 }
-.navbar{
-    background-color: white;
+.navbar {
+  background-color: white;
 }
-.techIcon{
-    padding-left: 1rem;
-    height: 2rem;
+.techIcon {
+  padding-left: 1rem;
+  height: 2rem;
 }
-.navbar-nav{
-    padding-right: 2rem;
+.navbar-nav {
+  padding-right: 2rem;
 }
-.nav-item{
-    font-weight: bold;
-    margin: auto 10px auto;
+.nav-item {
+  font-weight: bold;
+  margin: auto 10px auto;
 }
-.signIn{
-    padding-right: 5px;
-    border-radius: 10px;
-    border:3px solid grey;
+.signIn {
+  padding-right: 5px;
+  border-radius: 10px;
+  border: 3px solid grey;
 }
 
-#home{
-    background-image: url("./images/titleBackground.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#home {
+  background-image: url("./images/titleBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.login{
-    border-radius: 18px;
+.login {
+  border-radius: 18px;
 }
-.con1{
-    margin-right: 4%;
-    background: rgba(0,0,0,0.45);
+.con1 {
+  margin-right: 4%;
+  background: rgba(0, 0, 0, 0.45);
 }
-.welcome{
-    padding-top:2rem;
-    font-weight: bold;
-    color: white;
+.welcome {
+  padding-top: 2rem;
+  font-weight: bold;
+  color: white;
 }
-.maintitle{
-    font-size: 3.5rem;
-    padding-top: 7.5rem;
-    padding-bottom: 2.5rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(133, 216, 241);
+.maintitle {
+  font-size: 3.5rem;
+  padding-top: 7.5rem;
+  padding-bottom: 2.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(133, 216, 241);
 }
-.titlepara{
-   font-size: 18px;
-   margin:auto 8%;
-   color: white;
+.titlepara {
+  font-size: 18px;
+  margin: auto 8%;
+  color: white;
 }
-.login{
-    border: 3px solid rgba(53, 108, 126, 0.966);
-    color:white;
-    margin: 4rem auto 6rem;
+.login {
+  border: 3px solid rgba(53, 108, 126, 0.966);
+  color: white;
+  margin: 4rem auto 6rem;
 }
-.login:hover{
-    background: linear-gradient(rgba(53, 108, 126, 0.966),rgb(181, 221, 235));
+.login:hover {
+  background: linear-gradient(rgba(53, 108, 126, 0.966), rgb(181, 221, 235));
 }
-.course1, .course2{
-    background-color: white;
-    display: inline-block;
+.course1,
+.course2 {
+  background-color: white;
 }
-.course1{
-    width:40rem;
-    padding:15px;
+.course1 {
+  padding: 15px;
+}
+.imageAlignLeft {
+  float: left;
+  padding-right: 15px;
+}
+.tute {
+  color: rgb(23, 151, 202);
+  font-size: small;
+}
+.learnreact {
+  font-weight: bold;
+}
+.learnreact1 {
+  font-weight: bold;
+  font-size: small;
+}
+.reactfooter {
+  display: block;
+  font-size: smaller;
+  color: grey;
+  line-height: 2.5;
+}
+.course2 {
+  padding-bottom: 5px;
+  text-align: left;
+  width: 20rem;
+  position: absolute;
+  right: 5%;
+  top: 81%;
+
+}
+.course2a {
+  padding: 15px;
+
+}
+
+.con2 {
+  margin-top: 2.5rem;
+  background-color: rgba(173, 216, 230, 0.884);
+  width: 90%;
+}
+.featureHead {
+  padding: 2rem;
+}
+.tutecourse {
+  padding-top: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.coursetitle {
+  color: rgb(13, 129, 175);
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.row{
+    margin:auto 10% auto 10%;
+}
+.courselogo{
+    padding-top: 20px;
+}
+
+@media (min-width: 900px) {
+  .signIn {
+    position: absolute;
+    right: 1rem;
+    bottom: 3px;
+  }
+  .titlepara {
+    margin: auto 28%;
+  }
+  .course1 {
     text-align: left;
-}
-.imageAlignLeft{
+    width: 40rem;
+    position: absolute;
+    left: 30%;
+    top: 81%;
+  }
+  .tutecourse {
+    margin-top: 15rem;
+  }
+  .imageAlign {
     float: left;
-    padding-right:15px;
+  }
 }
-.tute{
-    color:rgb(23, 151, 202);
-    font-size: small;
-}
-.learnreact{
-    font-weight: bold;
-}
-.learnreact1{
-    font-weight: bold;
-    font-size: small;
-}
-.reactfooter{
-    display: block;
-    font-size: smaller;
-    color: grey;
-    line-height: 2.5;
-}
-.course2{
-    width:20rem;
-    padding-bottom: 5px;
-    text-align: left;
-}
-.course2a{
-    padding: 15px;
-}
-
-.con2{
-    margin-top:2.5rem;
-    background-color:rgba(173, 216, 230, 0.884);
-    width:90%;
-}
-.featureHead{
-    padding:2rem;
-}
-.tutecourse{
+@media (max-width: 900px) {
+  .con1 {
+    width: 80%;
+    margin-right: auto;
+  }
+  .course1 {
     padding-top: 3rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.coursetitle{
-    color:rgb(13, 129, 175);
-    font-weight: bold;
-}
-
-
-
-@media (min-width:900px) {
-    .signIn{
-        position: absolute;
-        right: 1rem;
-        bottom: 3px;
-    }
-    .titlepara{
-        margin:auto 28%;
-    }
-    .course1{
-        position: absolute;
-        left:30%;
-        top:81%;
-    }
-    .course2{
-        position: absolute;
-        right:5%;
-        top: 81%;
-    }
-    .tutecourse{
-        margin-top: 15rem;
-    }
-}
-@media (max-width:900px){
-    .con1{
-        width:80%;
-        margin-right: auto;
-    }
-.course1{
-    padding-top:3rem;
-}
+  }
+  .course2 {
+    display: none;
+  }
 }
