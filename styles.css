@@ -25,17 +25,14 @@ body{
     background-image: url("./images/titleBackground.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;height:800px;
+    background-size: cover;
 }
 .login{
     border-radius: 18px;
 }
 .con1{
-    /* margin-top:40px; */
-    /* margin-bottom:40px; */
-    /* width:40%; */
     margin-right: 4%;
-    background: rgba(0,0,0,0.35);
+    background: rgba(0,0,0,0.45);
 }
 .welcome{
     padding-top:2rem;
@@ -57,20 +54,50 @@ body{
 .login{
     border: 3px solid rgba(53, 108, 126, 0.966);
     color:white;
-    margin: 4rem auto 6.5rem;
+    margin: 4rem auto 6rem;
 }
 .login:hover{
     background: linear-gradient(rgba(53, 108, 126, 0.966),rgb(181, 221, 235));
 }
 .course1, .course2{
     background-color: white;
+    display: inline-block;
 }
 .course1{
-    width:50%;
+    width:40rem;
+    padding:15px;
+    text-align: left;
+}
+.imageAlignLeft{
+    float: left;
+    padding-right:15px;
+}
+.tute{
+    color:rgb(23, 151, 202);
+    font-size: small;
+}
+.learnreact{
+    font-weight: bold;
+}
+.learnreact1{
+    font-weight: bold;
+    font-size: small;
+}
+.reactfooter{
+    display: block;
+    font-size: smaller;
+    color: grey;
+    line-height: 2.5;
 }
 .course2{
-    width:30%;
+    width:20rem;
+    padding-bottom: 5px;
+    text-align: left;
 }
+.course2a{
+    padding: 15px;
+}
+
 .con2{
     margin-top:2.5rem;
     background-color:rgba(173, 216, 230, 0.884);
@@ -89,10 +116,24 @@ body{
     .titlepara{
         margin:auto 28%;
     }
+    .course1{
+        position: absolute;
+        left:30%;
+        top:81%;
+    }
+    .course2{
+        position: absolute;
+        right:5%;
+        top: 81%;
+    }
 }
 @media (max-width:900px){
     .con1{
         width:80%;
         margin-right: auto;
     }
+    /* .course1, .course2{
+        display:block;
+        width:100%;
+    } */
 }
