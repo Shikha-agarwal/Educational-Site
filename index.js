@@ -1,9 +1,12 @@
 jQuery(document).ready(function(){
-    jQuery(window).resize(function(){
-        if(jQuery(window).width()< "900px"){
-            jQuery(".navbar-text .nav-link").removeClass("signIn btn btn-sm me-2");
-        }
-    });
+    $('.navbar-collapse').on('click',function(){ 
+        $('.navbar-collapse').collapse('hide');})
+
+    // jQuery(window).resize(function(){
+    //     if(jQuery(window).width()< "900px"){
+    //         jQuery(".navbar-text a").removeClass("signIn btn btn-sm me-2");
+    //     }
+    // });
 });
 
 

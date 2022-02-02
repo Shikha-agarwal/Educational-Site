@@ -3,6 +3,7 @@ body {
 }
 .navbar {
   background-color: white;
+  filter: brightness(100%);
 }
 .techIcon {
   padding-left: 1rem;
@@ -22,7 +23,7 @@ body {
   border: 3px solid rgba(41, 147, 182, 0.966);
 }
 
-#home {
+#home{
   background-image: url("./images/titleBackground.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -32,7 +33,6 @@ body {
   border-radius: 18px;
 }
 .con1 {
-  margin-right: 4%;
   background: rgba(0, 0, 0, 0.45);
 }
 .welcome {
@@ -150,20 +150,22 @@ body {
   height: 250px;
   width: 300px;
   border: 8px solid grey;
-  margin-bottom: 5rem;
 }
 .aboutUsimage {
   position: relative;
   top: 10%;
   left: 20%;
-  box-shadow: 8px 8px 15px grey;
+  box-shadow: 8px 8px 18px grey;
 }
 .aboutHead {
   font-weight: bold;
+  padding-top: 3rem;
 }
 hr {
   width: 10%;
-  margin: auto 45%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
 }
 .Aboutcontent {
   display: inline-block;
@@ -173,23 +175,53 @@ hr {
   margin: 3rem auto 5rem;
 }
 #takeAction {
-  background: linear-gradient(rgb(68, 158, 194), rgba(191, 217, 224, 0.884));
-  padding: 3rem;
+  background-image: url('./images/Action.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:95%;
+  margin: auto;
+}
+.takeActionContent{
+ background: rgba(0, 0, 0, 0.25);
+ padding-top: 5rem;
+ padding-bottom: 5rem;
 }
 .takeActionHead {
-  color: rgb(16, 79, 99);
+  color: rgb(133, 216, 241);
   font-weight: bold;
 }
 .actionPara {
+  color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 1.5rem;
 }
 .startNow {
+  color: white;
   border-radius: 18px;
   border: 3px solid rgba(41, 147, 182, 0.966);
 }
+#footer{
+  padding-top:5rem;
+}
+#footer h5{
+  color:rgb(13, 129, 175);
+  padding-bottom: 2rem;
+}
+.footer-icon{
+  padding: 0.9rem;
+}
+#footer p{
+  color:grey;
+  line-height: 2;
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+.copyright{
+  color:grey;
+}
 
-@media (min-width: 900px) {
+@media (min-width: 950px) {
   .signIn {
     position: absolute;
     right: 1rem;
@@ -229,10 +261,6 @@ hr {
 }
 
 @media (max-width: 900px) {
-  .con1 {
-    width: 80%;
-    margin-right: auto;
-  }
   .course1 {
     padding-top: 3rem;
   }
@@ -249,5 +277,8 @@ hr {
     width: 42vh;
     position: relative;
     left: 13%;
+  }
+  .Aboutcontent {
+    width:90%;
   }
 }
