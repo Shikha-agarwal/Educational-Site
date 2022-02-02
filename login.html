@@ -24,6 +24,12 @@
 </head>
 <body id="loginPage">
     <img src="./images/favicon.ico" alt="web-logo" class="web-logo">
+    <!-- <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div> -->
+    <a href="./index.html"><i class="fa fa-times fa-2x cross-icon"></i></a>
+    <h3 style="text-align: center; font-weight: bold;">WELCOME BACK!</h3>
     <div class="form">
     <i class="fa fa-user fa-5x top-icon"></i>
     <form action="" method="post" enctype="text/plain">
@@ -36,17 +42,19 @@
             <input type="password" class="form-control pass" placeholder="Password" id="passType" required>
             <i class="fa fa-eye" id="pass-status"></i>
         </div>
-        <div class="row container34">
-            <div class="col container3">
-                <label><input id="rememberme" name="rememberme" value="remember" type="checkbox" /> &nbsp;Remember Me</label>  
-            </div>
+        <div class="col container3">
+            <label><input id="rememberme" name="rememberme" value="remember" type="checkbox" /> &nbsp;Keep Me Logged in</label>  
+        </div>
+        <button type="submit" class="btn login-button">LOG IN </button>
+        <div class="row">
             <div class="col container4">
-                <a class="forgotPass" href="#">Forgot Password?</a>
+                <a class="forgotPass" href="#">FORGOT PASSWORD?</a>  
+            </div>
+            <div class="col container5">
+                NEW USER?<a class="forgotPass" href="#"> REGISTER</a>
             </div>
         </div>
-        <button type="submit" class="btn login-button">Log in</button>
       </form>
-      <p>Don't have an account? <span style="font-weight: bold;">Sign Up</span></p>
     </div>
     <div id="footer2">
         <p class="copyright">© Shikha Agarwal 2022. All rights reserved</p>
