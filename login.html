@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Css stylesheet-->
+    <link href="styles.css" rel="stylesheet" />
+
+    <!-- Jquery script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <!-- Font awesome -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />  
+</head>
+<body id="loginPage">
+    <img src="./images/favicon.ico" alt="web-logo" class="web-logo">
+    <div class="form">
+    <i class="fa fa-user fa-5x top-icon"></i>
+    <form action="" method="post" enctype="text/plain">
+        <div class="mb-4 input-container1">
+            <i class="fa fa-user icon"></i>
+            <input type="email" class="form-control" placeholder="Email ID" required>
+        </div>
+        <div class="mb-4 input-container2">
+            <i class="fa fa-lock icon"></i>
+            <input type="password" class="form-control pass" placeholder="Password" id="passType" required>
+            <i class="fa fa-eye" id="pass-status"></i>
+        </div>
+        <div class="row container34">
+            <div class="col container3">
+                <label><input id="rememberme" name="rememberme" value="remember" type="checkbox" /> &nbsp;Remember Me</label>  
+            </div>
+            <div class="col container4">
+                <a class="forgotPass" href="#">Forgot Password?</a>
+            </div>
+        </div>
+        <button type="submit" class="btn login-button">Log in</button>
+      </form>
+      <p>Don't have an account? <span style="font-weight: bold;">Sign Up</span></p>
+    </div>
+    <div id="footer2">
+        <p class="copyright">© Shikha Agarwal 2022. All rights reserved</p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./index.js" charset="UTF-8"></script>
+</body>
+</html>

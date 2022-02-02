@@ -1,4 +1,6 @@
-body {
+/* index Page */
+
+#indexPage {
   text-align: center;
 }
 .navbar {
@@ -218,7 +220,9 @@ hr {
   padding-bottom: 2rem;
 }
 .copyright{
+  text-align: center;
   color:grey;
+  font-size: smaller;
 }
 
 @media (min-width: 950px) {
@@ -279,5 +283,92 @@ hr {
   }
   .Aboutcontent {
     width:90%;
+  }
+}
+
+
+/* Login Page */
+.web-logo{
+  width:2rem;
+  margin: 1rem;
+}
+.form{
+  text-align: center;
+}
+form{
+  width:478px;
+  margin:auto;
+  border:2px solid lightgray;
+  border-radius: 20px;
+  padding: 3rem;
+}
+.top-icon{
+  position: relative;
+  top:55px;
+  border-radius: 100%;
+  padding: 20px;
+  padding-left: 25px ;
+  padding-right: 25px;
+  background-color: rgb(68, 129, 241);
+}
+.input-container1 , .input-container2{
+  display: flex;
+}
+.input-container1 {
+  padding-top: 3.5rem;
+}
+.input-container2{
+  position: relative;
+}
+.icon{
+  padding: 10px;
+  background-color: cornflowerblue;
+}
+.fa-eye, .fa-eye-slash{
+  position: absolute;
+  right:0.5rem;
+  top:10px;
+}
+.container34{
+  font-size: smaller;
+  padding-top:1.5rem;
+  padding-bottom: 2rem;
+}
+.container3,.container4{
+  position: relative;
+}
+.container3{
+  color: gray;
+  right:50px;
+}
+.container4{
+  left:50px;
+}
+.forgotPass{
+  text-decoration: none;
+  color: gray;
+}
+.login-button{
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: cornflowerblue;
+  width: 100%;
+  padding: 10px;
+  color: white;
+}
+.login-button:hover{
+  background-color: rgb(68, 129, 241);
+  color: white;
+}
+.form p{
+  padding: 1.5rem;
+}
+#footer2{
+  padding-top: 3rem;
+}
+
+@media (max-width:500px){
+  form{
+    width: 100%;
   }
 }
