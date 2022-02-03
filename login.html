@@ -24,37 +24,45 @@
 </head>
 <body id="loginPage">
     <img src="./images/favicon.ico" alt="web-logo" class="web-logo">
-    <!-- <div class="box1"></div>
-    <div class="box2"></div>
-    <div class="box3"></div>
-    <div class="box4"></div> -->
     <a href="./index.html"><i class="fa fa-times fa-2x cross-icon"></i></a>
-    <h3 style="text-align: center; font-weight: bold;">WELCOME BACK!</h3>
-    <div class="form">
-    <i class="fa fa-user fa-5x top-icon"></i>
-    <form action="" method="post" enctype="text/plain">
-        <div class="mb-4 input-container1">
-            <i class="fa fa-user icon"></i>
-            <input type="email" class="form-control" placeholder="Email ID" required>
+    <div class="row maincontainer">
+            <div class="col container-1">
+                <form action="" method="post" enctype="text/plain">
+                    <h2 style="color:rgb(25, 152, 190);">Sign In</h2>
+                    <span style="color:gray;font-size: smaller; font-weight: normal; text-align: center;">Welcome back! Please enter your details</span>
+        
+                    <div class="mb-4 input-container1">
+                        <label for="inputEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" required>
+                    </div>
+                    <div class="mb-4 input-container2">
+                        <label for="passType" class="form-label">Password</label>
+                        <input type="password" class="form-control pass" id="passType" required>
+                        <i class="fa fa-eye" id="pass-status"></i>
+                    </div>
+                    <div class="row">
+                        <div class="col container3">
+                            <label><input id="rememberme" name="rememberme" value="remember" type="checkbox" /> &nbsp;Remember Me</label>  
+                        </div>
+                        <div class="col container4">
+                            <a class="forgotPass" href="#">Forgot Password?</a>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <button type="submit" class="btn btn-primary login-button">Sign in</button>
+                    </div>
+                    <div class="mb-4">
+                        <button type="submit" class="btn btn-outline-primary loginGoogle-button"><i class="fa fa-google"></i> &nbsp;Sign in with Google</button>
+                    </div>
+                    <span style="font-weight: normal;font-size: smaller;">Don't have an account?</span><a href="#"> Sign up</a> 
+                </form>
         </div>
-        <div class="mb-4 input-container2">
-            <i class="fa fa-lock icon"></i>
-            <input type="password" class="form-control pass" placeholder="Password" id="passType" required>
-            <i class="fa fa-eye" id="pass-status"></i>
-        </div>
-        <div class="col container3">
-            <label><input id="rememberme" name="rememberme" value="remember" type="checkbox" /> &nbsp;Keep Me Logged in</label>  
-        </div>
-        <button type="submit" class="btn login-button">LOG IN </button>
-        <div class="row">
-            <div class="col container4">
-                <a class="forgotPass" href="#">FORGOT PASSWORD?</a>  
+        <div class="col container-2">
+            <img class="cont2image" src="./images/loginCont2.jpg" alt="image">
+            <div class="cont2text">
+                <h2>WELCOME BACK!</h2>
             </div>
-            <div class="col container5">
-                NEW USER?<a class="forgotPass" href="#"> REGISTER</a>
-            </div>
         </div>
-      </form>
     </div>
     <div id="footer2">
         <p class="copyright">© Shikha Agarwal 2022. All rights reserved</p>

@@ -114,7 +114,7 @@
   font-weight: bold;
   padding-bottom: 15px;
 }
-.row {
+.courseRow {
   margin: auto 10% auto 10%;
 }
 .courselogo {
@@ -288,9 +288,10 @@ hr {
 
 
 /* Login Page */
-
 #loginPage{
-  background: linear-gradient(rgb(203, 217, 243),white);
+  background:linear-gradient(90deg, rgb(230, 241, 245) 70%, rgb(226, 223, 223) 50%) ;
+  color: grey;
+  font-weight: bold;
 }
 .web-logo{
   width:2rem;
@@ -300,134 +301,102 @@ hr {
   position: absolute;
   right: 0;
   margin: 7px;
-  color: cornflowerblue;
+  color: rgb(33, 99, 221);
 }
-.form{
-  text-align: center;
+.maincontainer{
+  background-color: white;
+  margin:auto 10% auto 10%;
+  border-radius:15px;
+}
+.container-1{
+  text-align: left;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 form{
-  background-color: white;
-  width:478px;
+  width:50%;
   margin:auto;
-  border:2px solid lightgray;
-  border-radius: 20px;
-  padding: 3rem;
-  box-shadow:0px 0px 25px cornflowerblue inset;
-}
-.top-icon{
-  position: relative;
-  top:55px;
-  border-radius: 100%;
-  padding: 20px;
-  padding-left: 25px ;
-  padding-right: 25px;
-  background-color: rgb(68, 129, 241);
-}
-.input-container1 , .input-container2{
-  display: flex;
 }
 .input-container1 {
-  padding-top: 3.5rem;
+  padding-top: 2rem;
 }
 .input-container2{
   position: relative;
-}
-.icon{
-  padding: 10px;
-  background-color: cornflowerblue;
 }
 .fa-eye, .fa-eye-slash{
   position: absolute;
   right:0.5rem;
   top:10px;
 }
-.container3 , .container4, .container5{
+.container3 , .container4{
   position: relative;
-  color: gray;
-}
-.container3{
-  right:120px;
-  font-size: smaller;
   padding-bottom: 1.5rem;
+  color: grey;
+  font-size: smaller;
 }
-.container4, .container5{
-  font-size: small;
- padding-top: 1.5rem;
-}
-.container4{
-  right:17%;
-}
-.container5{
-  left:17%;
+a{
+  text-decoration: none;
 }
 .forgotPass{
-  text-decoration: none;
-  color: gray;
+  color: grey;
+  position: absolute;
+  right: 1rem;
 }
 .login-button{
-  font-weight: bold;
-  background-color: cornflowerblue;
+  border-radius: 5px;
   width: 100%;
-  padding: 10px;
   color: white;
 }
 .login-button:hover{
   background-color: rgb(68, 129, 241);
   color: white;
 }
-.form p{
-  padding: 1.5rem;
+.fa-google{
+  background: conic-gradient(
+    from -45deg,
+    #ea4335 110deg,
+    #4285f4 90deg 180deg,
+    #34a853 180deg 270deg,
+    #fbbc05 270deg
+  )    73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.loginGoogle-button{
+  color: grey;
+  width: 100%;
+}
+.container-2{
+  position: relative;
+}
+.cont2image{
+ width: 100%;
+ height: 100%;
+}
+.cont2text{
+  position: absolute;
+  top:40%;
+  color: black;
+  font-weight: bold;
+  padding:1.5rem;
+  background: rgba(100,100,100,0.5);
+
 }
 #footer2{
-  padding-top: 6rem;
+  color: grey;
+  font-weight: normal;
+  padding-top:2rem;
 }
-/* .box1{
-  height:200px;
-  width:200px;
-  background-color: rgb(163, 218, 238);
-  border-radius: 20px;
-  position: absolute;
-  z-index: -1;
-  left:27%;
-  opacity: 0.5;
-  /* box-shadow: 0 0 15px 2px rgb(33, 177, 177) inset; */
-/* }
-.box2{
-  height:300px;
-  width:300px;
-  background-color: rgb(207, 231, 240);
-  border-radius: 10px;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-}
-.box3{
-  height:200px;
-  width: 350px;
-  background-color:rgb(200, 228, 238) ;
-  border-radius: 15px;
-  position: absolute;
-  z-index: -1;
-  top:33%;
-  left:10%;
-  opacity: 0.5;
-}
-.box4{
-  height:300px;
-  width: 200px;
-  background-color:rgb(133, 202, 228) ;
-  border-radius: 15px;
-  position: absolute;
-  z-index: -1;
-  bottom:0;
-  left:0;
-  opacity: 0.5;
-} */ 
-@media (max-width:500px){
-  form{
-    width: 100%;
-  }
-  .container3{
-    right:25%;
-  }
+@media (max-width:900px){
+    .container-2{
+      display: none;
+    }
+    .maincontainer{
+      margin: auto 2% auto 2%;
+    }
+    form{
+      width: 100%;
+    }
 }
