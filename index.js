@@ -17,5 +17,9 @@ jQuery(document).ready(function(){
              passStatus.addClass('fa fa-eye');
             }
         })
+
+    $('.signin-button').click(function(){
+        $('form h2').text("Sign Up");
+    })
 });
 
