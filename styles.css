@@ -32,6 +32,9 @@
   background-size: cover;
 }
 .login {
+  border: 3px solid rgba(53, 108, 126, 0.966);
+  color: white;
+  margin: 4rem auto 6rem;
   border-radius: 18px;
 }
 .con1 {
@@ -53,11 +56,6 @@
   font-size: 18px;
   margin: auto 8%;
   color: white;
-}
-.login {
-  border: 3px solid rgba(53, 108, 126, 0.966);
-  color: white;
-  margin: 4rem auto 6rem;
 }
 .login:hover,
 .signIn:hover,
