@@ -19,11 +19,6 @@
   font-weight: bold;
   margin: auto 10px auto;
 }
-.signIn {
-  padding-right: 12px;
-  border-radius: 10px;
-  border: 3px solid rgba(41, 147, 182, 0.966);
-}
 
 #home{
   background-image: url("./images/titleBackground.jpg");
@@ -228,6 +223,9 @@ hr {
     position: absolute;
     right: 1rem;
     bottom: 3px;
+    padding-right: 12px;
+    border-radius: 10px;
+    border: 3px solid rgba(41, 147, 182, 0.966);
   }
   .titlepara {
     margin: auto 28%;
@@ -266,10 +264,7 @@ hr {
   .course1 {
     padding-top: 3rem;
   }
-  .course2 {
-    display: none;
-  }
-  .inneraboutPara {
+  .course2 , .inneraboutPara{
     display: none;
   }
   .aboutPara {
